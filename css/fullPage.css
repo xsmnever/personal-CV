@@ -1,0 +1,15 @@
+.section1 {
+    background: rgb(111, 170, 247);
+}
+.section2 {
+    background: rgb(151, 219, 111);
+}
+.section3 {
+    background: rgb(221, 91, 91);
+}
+.section4 {
+    background: rgb(217, 114, 226);
+}
+#fp-nav ul li a span {
+    background-color: #fff;
+}

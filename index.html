@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/fullPage.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <script src="./lib/jquery-1.12.2.js"></script>
+    <script src="./lib/index.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./lib/jquery.easing.1.3.js"></script>
+    <script src="./lib/jquery.fullPage.min.js"></script>
+    <title>个人简历</title>
+</head>
+
+<body>
+    <div id="fullpage">
+        <!-- 第一屏 -->
+        <div class="section section1 animated fadeInDown" id="dowebok" data-index='1'>
+            <div class="profile" id="preface">
+                <h3>
+                     <img src="./images/tx2.jpg" alt="头像" title="personalImg">
+                </h3> 
+                <p class="name">Hi，<span>我是许苏萌</span> </p>
+                <p class="code"> <span class="glyphicon glyphicon-dashboard"></span> Never stop learning and coding.</p>
+                <p class="life"> <span class="glyphicon glyphicon-heart-empty"></span> Loving life.</p>
+                <p class="introduction" id='infoBtn'>
+                    详细介绍
+                </p>
+                <div class='infoBox'>
+                    <span class="closeBtn glyphicon glyphicon-remove"></span>
+                    <h3>基本资料</h3>
+                    <ul>
+                        <li>姓名： 许苏萌</li>
+                        <li>年龄： 25</li>
+                        <li>工作经验： 一年web前端开发经验</li>
+                        <li>学历： 本科</li>
+                        <li>求职意向： web前端开发</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 第二屏  技能专长 -->
+        <div class="section section2" id="s2" data-index='2'>
+            <div class="skill" >
+                <h3>技能</h3>
+                <div class="skillBox">
+                    <a href="javascript:;">HTML/HTML5</a>
+                    <a href="javascript:;">CSS/CSS3</a>
+                    <a href="javascript:;">JavaScript</a>
+                    <a href="javascript:;">jQuery/Bootstrap</a>
+                    <a href="javascript:;">Ajax</a>
+                    <a href="javascript:;">nodejs</a>
+                    <a href="javascript:;">数据库增删改查</a>
+                    <a href="javascript:;">英语专业八级</a>
+                </div>   
+            </div>
+            
+        </div>
+        <!-- 第三屏 -->
+        <div class="section section3">
+            <div class="contact">
+                <h3>联系方式</h3>
+                <p>手机： 18818255172</p>
+                <p>邮箱： 18818255172@163.com</p>
+                <span class="wechat"></span>
+                <div class="erweima"><img src="./images/erweima.png"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
